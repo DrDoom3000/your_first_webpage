@@ -1,0 +1,29 @@
+---CSS Tutorial---
+___What is CSS?
+CSS (Cascade Style Sheets) is a web-oriented styling language with a minimal syntax. It is used to style HTML files.
+___How do I use CSS?
+If you want to change the properties of an item, such as, e.g., a paragraph (<p>) you need to access its properties:
+p {
+...
+}
+If you want to change the properties of a class, such as, e.g., "class1", use a dot at the beginning:
+.class1 {
+...
+}
+Now, to change the properties, use:
+color: [...];     |This changes the color of the object, text on <p> or headers.
+font-family: [...];     |This lets you select font families, such as Times New Roman or Orbitron.
+font-weight: [...];     |This lets you make the font bold or light.
+font-size: [...];     |This lets you change the font size.
+background: [...];     |Select a background color.
+background-image: [...];     |This lets you use an image as background.
+box-shadow: [...] [...] [...] [...];     |This lets you add a shadow to the box around the object (offset x offset y width color).
+text-align: [...];     |Align the text to center, middle or left.
+
+These are the most commonly used ones, but there are lots more.
+Every width/height/etc. is in px, the default font size for a paragraph/link is 15px.
+You DON'T have to define everything in the corresponding HTML script, but if the body (<body>) isn't defined, it will keep in default plaintext if not every object is defined.
+If you want to create glow effects, just use a bright shadow.
+If you want to make an object nearly invisible, use
+opacity: [...];
+It reaches from 0 to 1, with 0 being transparent and 1 fully opaque. 0.2 is hard to see, whilst 0 is invisible and 0.9 blending in a bit with the background.
