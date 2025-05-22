@@ -1,0 +1,37 @@
+---HTML tutorial---
+___What is HTML?
+HTML (Hypertext markup language) is a language dedicated to creating Hypertext files. Hypertext is a form of text where a document isn't read straight, it has links (so called Hyperlinks) to other documents and/or points in the document.
+___How to code in HTML?
+Each tag in HTML begins with < and ends with >. A tag is before and after something it shall show, such as the paragraph-tag:
+<p>This is a paragraph.</p>
+The last tag always has a / after the < to show it's a so-called closing tag.
+The syntax is quite easy:
+<tag>Parent					|Adds a Parent object
+	<tag>Child</tag>			|Child of the Parent object
+	<tag>Another Child</tag>		|Child of the Parent object too
+</tag>						|Closes the Parent object
+An HTML document starts with <html> and ends with </html>. It has 2 parts:
+<head>
+	|Here, tab title etc. are defined
+</head>
+<body>
+	|Here, everything showed in the webpage is defined
+</body>
+To create the tab title, use
+<title>Title</title>
+For headings, use
+<h1>Big heading</h1>
+up to
+<h6>Small header</h6>
+to create a paragraph, use the
+<p>This is a paragraph.</p>
+tag. To make handling of many headings and paragraphs easier, use 
+<article></article>
+Embed a link with
+<a href="https://example.website.domain">Name it is referred to on the site</a>
+And use images with
+<img src="image.png"/>
+This is a so-called self-closing tag. It is fully self-contained and is only 1 tag, not 2 tags.
+To reference a CSS-file, use
+<link rel="Name in this script" href="Script.css"/>
+This is fully self-contained too.
