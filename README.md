@@ -1,2 +1,1 @@
-# your_first_webpage
 This website builder contains a webpage using links, different headers, paragraphs, and titles/a meta. Copy the file link to the HTML file and paste it in your browser after download. It additionally uses CSS files and hyperlinks. Check out the .txt-Tutorial on CSS and HTML in the "Tutorial"-Folder.
